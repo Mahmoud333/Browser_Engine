@@ -1,0 +1,45 @@
+/* Most of our CSS will be moving things around and chaning colors atleast in this particular browser */
+html {
+    display: block; /* This is Property, they come before the colon ':' and after '{' */
+}
+/*
+ * This signifies that we want to apply this particular thing to our entire block of HTML
+ * Our 'Selector' (in CSS.rs), word up until the actual '{'
+ */
+
+head {
+    display: none;  /* This is Property, they come before the colon ':' and after '{' */
+}
+
+body {
+    display: block; /* This is Property, they come before the colon ':' and after '{' */
+    margin: 8px     /* This is Property, they come before the colon ':' and after '{' */
+}
+
+div {
+    display: block;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze {
+    background-color: #cd7f32;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.orange {
+    color: #ff6600;
+}
+
+.orange {
+    color: #f60;
+}

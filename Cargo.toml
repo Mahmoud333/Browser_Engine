@@ -1,0 +1,16 @@
+[package]
+name = "browser_engine"
+version = "0.1.0"
+authors = ["Mahmoud Hamad <mahmoud_smgl@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+gfx = "0.18.1" #"0.18.1" #other dependancies uses "0.17.1" #beginning: #"0.14.0"     #gfx: Api gives us access to OpenGL
+gfx_text = "0.24.0" #beginning: "0.15.0"
+gfx_window_glutin = "0.31.0" #"0.31.0" #beginning: "0.14.0" 
+glutin = "0.21.0" #beginning: "0.7.1"   #glutin is Lower-Level lib. that makes it easire for us to create window and stuff
+
+#to create binary and tell cargo to run this files thats outside of 'src' file
+[[bin]]
+name = "main"
+path = "/bin/main.rs" #"../bin/main.rs" #"/bin/main.rs"
