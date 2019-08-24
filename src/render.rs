@@ -217,6 +217,6 @@ pub fn render_loop(command_list: &[DisplayCommand]) {
     }
 }
 
-impl gfx_core::factory::Factory<_> for  gfx_device_gl::factory::Factory {
+impl gfx_core::factory::Factory<_> for gfx_device_gl::factory::Factory {
 
 }
